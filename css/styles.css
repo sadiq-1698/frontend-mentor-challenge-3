@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+:root {
+    --font-family: 'Public Sans', sans-serif;
+    --dark-blue: hsl(233, 26%, 24%);
+    --lime-green: hsl(136, 65%, 51%);
+    --bright-cyan: hsl(192, 70%, 51%);
+    --grayish-blue: hsl(233, 8%, 62%);
+    --light-grayish-blue: hsl(220, 16%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+    font-family: var(--font-family);
+    width: 100%;
+    max-width: 100%;
+}
+
+body .wrapper {
+    max-width: 1440px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.wrapper nav {
+    z-index: 5;
+    height: 70px;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.wrapper nav .logo-container {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper nav ul {
+    height: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper nav ul li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: var(--grayish-blue);
+}
+
+.wrapper nav ul li:hover {
+    cursor: pointer;
+    border-bottom: 3px solid var(--lime-green);
+}
+
+.wrapper nav .button-container {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.wrapper nav .button-container button {
+    border: none;
+    outline: none;
+    padding: 0.7rem 1.8rem;
+    border-radius: 40px;
+    font-family: var(--font-family);
+    color: var(--white);
+    background-image: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
+}
+
+.wrapper nav .button-container button:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.wrapper .intro {
+    background-color: var(--very-light-gray);
+}
+
+.wrapper .intro .intro-content {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    margin-left: 6rem;
+}
+
+.wrapper .intro .intro-content h1 {
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.wrapper .intro .intro-content p {
+    margin-bottom: 1.5rem;
+}
+
+.wrapper .intro .intro-content button {
+    border: none;
+    outline: none;
+    padding: 0.7rem 1.8rem;
+    border-radius: 40px;
+    font-family: var(--font-family);
+    color: var(--white);
+    background-image: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
+}
+
+.wrapper .intro .intro-content button:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
