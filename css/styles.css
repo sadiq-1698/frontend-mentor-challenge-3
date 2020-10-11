@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
 :root {
     --font-family: 'Public Sans', sans-serif;
     --dark-blue: hsl(233, 26%, 24%);
@@ -51,6 +52,11 @@ ul {
     align-items: center;
 }
 
+.wrapper nav .logo-container img {
+    padding: 0;
+    margin: 0;
+}
+
 .wrapper nav ul {
     height: 100%;
     display: flex;
@@ -63,7 +69,7 @@ ul {
     height: 100%;
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 14px;
     color: var(--grayish-blue);
 }
 
@@ -130,9 +136,261 @@ ul {
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
+.wrapper .services {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-grayish-blue);
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.wrapper .services h1 {
+    font-weight: 400;
+    margin-bottom: 1rem;
+    padding-left: 0.6rem;
+}
+
+.wrapper .services .easybank-services {
+    display: flex;
+}
+
+.wrapper .services .easybank-services .services-section {
+    flex: 1;
+    margin-top: 2rem;
+}
+
+.wrapper .services .easybank-services .services-section {
+    margin-top: 2rem;
+    flex: 1;
+}
+
+.wrapper .services .easybank-services .services-section h3,
+img,
+p {
+    margin-top: 1rem;
+    padding: 0 0.6rem;
+}
+
+.wrapper .services .easybank-services .services-section p {
+    font-size: 14px;
+    color: var(--grayish-blue);
+}
+
+.wrapper .services .easybank-services .services-section h3 {
+    font-weight: 400;
+}
+
+.wrapper .services .easybank-services .services-section img {
+    height: 60px;
+    width: 60px;
+}
+
+.wrapper .latest-articles {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .latest-articles:first-child {
+    align-items: flex-start;
+}
+
+
+.wrapper .latest-articles h1 {
+    margin-left: 6rem;
+    margin-bottom: 3rem;
+    font-weight: 400;
+}
+
+.wrapper .latest-articles .articles-section {
+    margin: 0 auto;
+    display: flex;
+    width: calc(100% - 12rem);
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 5px;
+    width: 22%;
+    height: auto;
+    background-color: white;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    height: 130px;
+    width: 60px;
+    max-width: 100%;
+    object-fit: fill;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card .container {
+    border-radius: 5px;
+    flex: 1;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card .container span {
+    font-size: 10px;
+    color: var(--grayish-blue);
+    margin-bottom: 1rem;
+}
+
+.card .container p.first {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.card .container p.first:hover {
+    color: var(--lime-green);
+
+}
+
+.card .container p.second {
+    font-size: 12px;
+    color: var(--grayish-blue);
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    font-size: 10px;
+    text-align: center;
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-container {
+    height: 30%;
+    width: calc(100% - 12rem);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-container .left {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-container .left .first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer .footer-container .left .first img {
+    margin: 0;
+    padding: 0;
+}
+
+.footer .footer-container .left .first .social-media{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-container .left .first .social-media img:hover{
+    cursor: pointer;
+    fill : var(--lime-green);
+}
+
+
+.footer .footer-container .left .second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer .footer-container .left .second ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--white);
+}
+
+.footer .footer-container .left .second ul li:hover {
+    color: var(--lime-green);
+    cursor: pointer;
+}
+
+.footer .footer-container .left .third ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--white);
+}
+
+.footer .footer-container .left .third ul li:hover {
+    color: var(--lime-green);
+    cursor: pointer;
+}
+
+.footer .footer-container .fourth {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.footer .footer-container .fourth button {
+    border: none;
+    outline: none;
+    padding: 0.6rem 1.6rem;
+    border-radius: 40px;
+    font-family: var(--font-family);
+    color: var(--white);
+    background-image: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
+}
+
+.footer .footer-container .fourth button:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.footer .footer-container .fourth span {
+    color: var(--grayish-blue);
+}
+
 .attribution {
+    background-color: var(--dark-blue);
     font-size: 11px;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .attribution a {
