@@ -171,8 +171,7 @@ ul {
 }
 
 .wrapper .services .easybank-services .services-section h3,
-img,
-p {
+img{
     margin-top: 1rem;
     padding: 0 0.6rem;
 }
@@ -400,3 +399,19 @@ p {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+.wrapper .intro{
+    position : relative;
+    overflow: hidden;
+    max-width : 100%;
+}
+
+.bg-intro-desktop{
+    position : absolute;
+    z-index : 100;
+    top: 56px;
+    right: 0px;
+    overflow: hidden;
+    padding : 0;
+}
+
