@@ -21,6 +21,33 @@
         display: block;
     }
 
+    body .menu-modal {
+        display: none;
+        padding: 1.5rem;
+        position: absolute;
+        background-color: white;
+        height: auto;
+        width: 80%;
+        border-radius: 4px;
+        top: 90px;
+        z-index: 100;
+        opacity: 1;
+        box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.2);
+        transition: all 5s ease;
+    }
+
+    body .menu-modal span {
+        display: block;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    body .menu-modal span:last-child {
+        display: block;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
     body .wrapper nav.navbar {
         max-width: 100%;
         padding: 0;
@@ -127,92 +154,92 @@
     }
 
     .wrapper .latest-articles .articles-section {
-        margin : 0;
-        padding : 0;
-        width : 90%;
-        margin : 0 auto;
+        margin: 0;
+        padding: 0;
+        width: 90%;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .wrapper .latest-articles .articles-section .card{
-        width : 100%;
-        height : 350px;
-        margin-bottom : 1rem;
+    .wrapper .latest-articles .articles-section .card {
+        width: 100%;
+        height: 350px;
+        margin-bottom: 1rem;
     }
 
-    .wrapper .latest-articles .articles-section .card .container{
+    .wrapper .latest-articles .articles-section .card .container {
         justify-content: flex-start;
     }
 
-    .wrapper .latest-articles .articles-section .card .container span{
-        margin : 0;
-        padding : 0;
+    .wrapper .latest-articles .articles-section .card .container span {
+        margin: 0;
+        padding: 0;
         text-align: left;
         margin-bottom: 0.5rem;
         font-size: 14px;
     }
 
-    .wrapper .latest-articles .articles-section .card .container p.first{
-        margin : 0;
-        padding : 0;
+    .wrapper .latest-articles .articles-section .card .container p.first {
+        margin: 0;
+        padding: 0;
         text-align: left;
         margin-bottom: 1.5rem;
-        padding-right : 2rem;
-        font-size : 16px;
+        padding-right: 2rem;
+        font-size: 16px;
     }
 
-    .wrapper .latest-articles .articles-section .card .container p.second{
-        margin : 0;
-        padding : 0;
+    .wrapper .latest-articles .articles-section .card .container p.second {
+        margin: 0;
+        padding: 0;
         text-align: left;
-        padding-right : 1rem;
-        font-size : 14px;
+        padding-right: 1rem;
+        font-size: 14px;
     }
 
-    .wrapper .footer{
+    .wrapper .footer {
         height: 400px;
     }
 
-    .wrapper .footer .footer-container{
-        height : 350px;
+    .wrapper .footer .footer-container {
+        height: 350px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
     }
 
-    .wrapper .footer .footer-container .left{
+    .wrapper .footer .footer-container .left {
         display: flex;
         flex-direction: column;
         align-items: center;
-        flex : 40%;
+        flex: 40%;
     }
 
-    .wrapper .footer .footer-container .left .first img{
+    .wrapper .footer .footer-container .left .first img {
         margin-bottom: 1rem;
     }
 
-    .wrapper .footer .footer-container .left .second ul li{
-        font-size : 12px;
+    .wrapper .footer .footer-container .left .second ul li {
+        font-size: 12px;
         margin-bottom: 0.5rem;
     }
 
-    .wrapper .footer .footer-container .left .third ul li{
-        font-size : 12px;
+    .wrapper .footer .footer-container .left .third ul li {
+        font-size: 12px;
         margin-bottom: 0.5rem;
     }
 
-    .wrapper .footer .footer-container .fourth{
+    .wrapper .footer .footer-container .fourth {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        flex : 5%;
+        flex: 5%;
     }
 
-    .wrapper .footer .footer-container .fourth button{
+    .wrapper .footer .footer-container .fourth button {
         margin-bottom: 1rem;
     }
 }
@@ -231,7 +258,7 @@
 
     .wrapper .intro .intro-content p {
         margin: 0 0.2rem;
-        margin-bottom : 1rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -239,9 +266,10 @@
 
     .wrapper .intro .intro-content p {
         margin: 0 3rem;
-        margin-bottom : 1rem;
+        margin-bottom: 1rem;
     }
-    .wrapper .intro .intro-content p br{
+
+    .wrapper .intro .intro-content p br {
         display: none;
     }
 }
