@@ -1,0 +1,258 @@
+@import "styles.css";
+
+@media screen and (max-width : 500px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body .wrapper {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .wrapper nav .only-desktop {
+        display: none;
+    }
+
+    .only-mobile {
+        display: block;
+    }
+
+    body .wrapper nav.navbar {
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .wrapper nav .only-mobile i {
+        padding: 0;
+        margin: 0;
+    }
+
+    .wrapper .intro {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .wrapper .intro .intro-content {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 2rem 0;
+        padding-bottom: 4rem;
+    }
+
+    .wrapper .intro .intro-content h1 {
+        margin: 0 6rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .wrapper .intro .intro-content h1 br {
+        display: none;
+    }
+
+    .wrapper .intro .intro-content p {
+        margin: 0 1rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .wrapper .services {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper .services .why-easybank {
+        padding-top: 2rem;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper .services .why-easybank h1,
+    p {
+        text-align: center;
+    }
+
+    .wrapper .services .why-easybank p {
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 1rem;
+        color: var(--grayish-blue);
+    }
+
+    .wrapper .services .easybank-services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+
+    .wrapper .services .easybank-services .services-section {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper .latest-articles {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper .latest-articles h1 {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+    .wrapper .latest-articles .articles-section {
+        margin : 0;
+        padding : 0;
+        width : 90%;
+        margin : 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper .latest-articles .articles-section .card{
+        width : 100%;
+        height : 350px;
+        margin-bottom : 1rem;
+    }
+
+    .wrapper .latest-articles .articles-section .card .container{
+        justify-content: flex-start;
+    }
+
+    .wrapper .latest-articles .articles-section .card .container span{
+        margin : 0;
+        padding : 0;
+        text-align: left;
+        margin-bottom: 0.5rem;
+        font-size: 14px;
+    }
+
+    .wrapper .latest-articles .articles-section .card .container p.first{
+        margin : 0;
+        padding : 0;
+        text-align: left;
+        margin-bottom: 1.5rem;
+        padding-right : 2rem;
+        font-size : 16px;
+    }
+
+    .wrapper .latest-articles .articles-section .card .container p.second{
+        margin : 0;
+        padding : 0;
+        text-align: left;
+        padding-right : 1rem;
+        font-size : 14px;
+    }
+
+    .wrapper .footer{
+        height: 400px;
+    }
+
+    .wrapper .footer .footer-container{
+        height : 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .wrapper .footer .footer-container .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex : 40%;
+    }
+
+    .wrapper .footer .footer-container .left .first img{
+        margin-bottom: 1rem;
+    }
+
+    .wrapper .footer .footer-container .left .second ul li{
+        font-size : 12px;
+        margin-bottom: 0.5rem;
+    }
+
+    .wrapper .footer .footer-container .left .third ul li{
+        font-size : 12px;
+        margin-bottom: 0.5rem;
+    }
+
+    .wrapper .footer .footer-container .fourth{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex : 5%;
+    }
+
+    .wrapper .footer .footer-container .fourth button{
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width : 430px) {
+
+    .wrapper .intro .intro-content h1 {
+        margin: 0 3rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media screen and (max-width : 448px) {
+
+    .wrapper .intro .intro-content p {
+        margin: 0 0.2rem;
+        margin-bottom : 1rem;
+    }
+}
+
+@media screen and (max-width : 422px) {
+
+    .wrapper .intro .intro-content p {
+        margin: 0 3rem;
+        margin-bottom : 1rem;
+    }
+    .wrapper .intro .intro-content p br{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width : 338px) {
+
+    .wrapper .intro .intro-content h1 {
+        margin: 0 2rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+}

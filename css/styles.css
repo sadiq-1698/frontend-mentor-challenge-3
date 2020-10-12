@@ -30,6 +30,10 @@ body .wrapper {
     width: 100%;
 }
 
+.only-mobile{
+    display: none;
+}
+
 ul {
     list-style-type: none;
 }
