@@ -156,6 +156,10 @@ ul {
     padding-left: 0.6rem;
 }
 
+.wrapper .services .why-easybank p{
+    padding-left : 0.6rem;
+}
+
 .wrapper .services .easybank-services {
     display: flex;
 }
@@ -179,15 +183,18 @@ img{
 .wrapper .services .easybank-services .services-section p {
     font-size: 14px;
     color: var(--grayish-blue);
+    padding : 0 0.6rem;
 }
 
 .wrapper .services .easybank-services .services-section h3 {
     font-weight: 400;
+    margin-bottom : 1rem;
 }
 
 .wrapper .services .easybank-services .services-section img {
     height: 60px;
     width: 60px;
+    margin-bottom : 1.5rem;
 }
 
 .wrapper .latest-articles {
